@@ -6,8 +6,7 @@ const app = conect();
 const PORT = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
-
+app.use(conect.static('public'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
@@ -15,7 +14,6 @@ app.get('/', (req, res) => {
 
 app.post('/submit', (req, res) => {
   const email = req.body.email;
-
 //recebe o email, pode ser conectado ao banco
   if (email) {
     const styledResponse = `

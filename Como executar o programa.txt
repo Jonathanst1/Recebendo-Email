@@ -1,0 +1,13 @@
+Como executar o programa:
+
+1- Faça o download do seguinte repositório: https://github.com/Jonathanst1/Recebendo-Email
+
+2- Com o Docker rodando em sua máquina vá até a pasta do projeto e abra o prompt de comando ou se preferir abra pelo VS code.
+
+3 - Caso escolha o prompt de comando execute o seguinte comando: docker compose build e em seguida docker compose up.
+
+4 - o programa estará rodando em localhost:3000.
+
+5 - Caso tenha escolhido abrir com o VS code execute docker compose build no terminal e em seguida docker compose up.
+
+6- o programa estará rodando em localhost:3000.
