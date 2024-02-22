@@ -1,6 +1,6 @@
 Como executar o programa:
 
-1- Faça o download do seguinte repositório: https://github.com/Jonathanst1/Recebendo-Email
+1- Faça o download do seguinte repositório(Branch Main): https://github.com/Jonathanst1/Recebendo-Email     
 
 2- Com o Docker rodando em sua máquina vá até a pasta do projeto e abra o prompt de comando ou se preferir abra pelo VS code.
 
